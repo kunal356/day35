@@ -1,9 +1,9 @@
 import requests
-
+import config
 MY_LAT = 51.507351
 MY_LNG = -0.127758
 parameters = {
-    "appid": "fd6d4f1fe4bf436fedfe54c0f14b1728",
+    "appid": config.OWM_API_KEY,
     "lat": MY_LAT,
     "lon": MY_LNG,
     "cnt": 4
